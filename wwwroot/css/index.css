@@ -1,0 +1,141 @@
+ul,li {
+    list-style: none;
+    margin:0px; padding:0px;
+    display: inline;
+}
+
+html, body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.japanese {
+    font-family: 'Noto Sans JP', sans-serif;    
+}
+
+article {
+    width: 1050px;
+    height: calc(100% - 80px);
+    margin: 0 auto;
+    padding: 40px;
+}
+
+    article #profile-wrapper {
+        width: 298px;
+        height: 338px;
+        margin-right: 20px;
+        border: 1px solid #e3e5e9;
+        border-radius: 4px;
+        float: left;
+        cursor: default;
+    }
+
+    article #profile-wrapper img {
+        width: 298px;
+        height: 298px;
+        border-radius: 3, 3, 0, 0;
+        cursor: pointer;
+    }
+
+    article #profile-wrapper a {
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 1.02em;
+        font-weight: 500;
+    }
+
+    article #archive-wrapper {
+        padding: 0 20px;
+        width: 690px;
+        float: left;
+    }
+
+    article #archive-wrapper .project-name {
+        display: block;
+        margin: 15px 0px 5px 0px;
+        padding: 0;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    article #archive-wrapper .first {
+        margin: 0px 0px 5px 0px;
+    }
+
+    article #archive-wrapper .tag {
+        margin: 0 5px 0 0;
+        padding: 4px 10px; 
+        border-radius: 3px;
+        font-weight: 400;
+        font-size: 0.8em;
+        font-style: italic;
+        cursor: default;
+        color: #ffffff;
+    }
+
+    article #archive-wrapper .c-sharp {
+        background-color: #90caf9;
+    }
+
+    article #archive-wrapper .wpf {
+        background-color: #f29c9f;
+    }
+
+    article #archive-wrapper .release {
+        background-color: #8c97cb;
+    }
+
+    article #archive-wrapper .c {
+        background-color: #facd89;
+    }
+
+    article #archive-wrapper .study {
+        background-color: #59493f;
+    }
+
+/*
+@media (min-width: 1281px) {
+    article {
+        width: 1050px;
+        height: calc(100% - 80px);
+        padding: 40px;
+        background-color: white;
+    }
+    
+        article .title-text {
+            font-weight: 500;
+            font-size: 3.5em;
+            margin: 0;
+            padding: 0;
+        }
+    
+        article .text {
+            word-break: keep-all;
+            font-weight: 400;
+            font-size: 1em;
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    
+        article .text-link {
+            text-decoration: none;
+            color: #5292d9;
+            font-weight: 600;
+        }
+        
+        article #bio-text {
+            margin-top: 30px;
+        }
+    
+        article #bio-end {
+            margin-bottom: 30px;
+        }
+}
+*/
